@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Hero } from "./home/Hero";
 import { Summary } from "./home/Summary";
 import { MockUp } from "./home/MockUp";
