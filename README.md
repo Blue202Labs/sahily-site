@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This repo is the code for a landing page developed for one of our clients [Sahily](https://sahilyapp.com) who has kindly allowed us to showcase the code on our public repository.
+
+## To Run
+
+This is a [Next.js](https://nextjs.org) project.
 
 ## Getting Started
 
