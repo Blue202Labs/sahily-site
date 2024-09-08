@@ -3,8 +3,8 @@ import { SahilyLogo } from "./SahilyLogo";
 
 export const Footer = () => {
   return (
-    <footer className="md:h-96 bg-stone-100 px-10">
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 py-12 justify-between text-slate-700">
+    <footer className="md:h-96 bg-stone-100 px-10 flex flex-col items-center">
+      <div className="max-w-5xl w-full mx-auto flex flex-col md:flex-row gap-12 py-12 justify-between text-slate-700">
         <div className="flex flex-col gap-8">
           <SahilyLogo />
           <div className="flex flex-row gap-4">
@@ -55,6 +55,12 @@ export const Footer = () => {
           <Link href="/about-us">About Us</Link>
           <Link href="/about-us">Blog</Link>
         </div>
+      </div>
+      <div className="text-sm font-light text-slate-600">
+        © Sahily 2024 | Made by{" "}
+        <Link className="underline" href="https://blue202labs.com">
+          Blue202 Labs
+        </Link>
       </div>
     </footer>
   );

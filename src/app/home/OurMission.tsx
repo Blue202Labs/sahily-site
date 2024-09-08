@@ -39,7 +39,7 @@ export const OurMission = () => {
           ></WordFadeIn>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-0">
-          <p className="d:text-2xl md:pl-12 md:pr-24">
+          <p className="md:text-2xl md:pl-12 md:pr-24">
             <span className="font-bold">67%</span> of informal workers pay no
             taxes, and are <span className="font-bold">excluded</span> by
             financial institutions. They mainly operate through cash, with{" "}
